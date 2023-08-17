@@ -1,16 +1,35 @@
 @import url(css/header-desktop.css);
 @import url(css/header-mobile.css);
 @import url(css/header-tablet.css);
+@import url(css/menu-desktop.css);
+@import url(css/editor-desktop.css);
+@import url(css/projeto-desktop.css);
+@import url(css/personalizacao-desktop.css);
 
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto+Mono&display=swap');
 
 :root {
     --fundo-azul-escuro: #051D3B;
     --fundo-input: #FFFFFF29;
     --fonte-primaria: 'Inter';
+    --fonte-secundaria: 'Roboto Mono';
     --cor-fonte-branca: #FFFFFF;
+    --cor-fonte-placeholder: #ffffff64;
+    --botao-filled: #5081FB;
+    --botao-filled-hover: #7BA4FC;
+    --botao-filled-pressed: #7BA4FC;
+    --botao-filled-pressed-border: #5081FBB8;
+    --botao-filled-focus: #96B9FD;
+    --botao-outlined: #5081FB14;
+    --botao-outlined-hover: #5081FB29;
+    --botao-outlined-pressed: #5081FB29;
+    --botao-outlined-pressed-border: #5081FB3D;
+    --botao-outlined-focus: #5081FB3D;
+    --fundo-editor-azul: #6BD1FF;
+    --fundo-editor-input-preto: #141414;
+    
 }
+
 
 body {
     font-family: var(--fonte-primaria);

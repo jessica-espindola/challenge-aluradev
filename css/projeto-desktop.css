@@ -1,0 +1,35 @@
+@media screen and (min-width: 1440px) {
+    .conteudo__principal__direito {
+        margin-right: 32px;
+
+    }
+    .conteudo__principal__direito__projeto {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        margin-bottom: 40px;
+    
+    }
+    
+    .conteudo__principal__direito__projeto-titulo {
+        font-size: 12px;
+        color: var(--cor-fonte-branca);
+        letter-spacing: 0.4em;
+        text-transform: uppercase;
+    }
+    
+    .conteudo__principal__direito__projeto-inputNome, .conteudo__principal__direito__projeto-inputDescricao {
+        padding: 16px 14px;
+        background-color: var(--fundo-input);
+        border: none;
+        border-radius: 8px;
+        color: var(--cor-fonte-branca);
+    }
+    
+    .conteudo__principal__direito__projeto-inputDescricao {
+        height: 80px;
+        color: var(--cor-fonte-branca);
+    }
+    
+    
+}

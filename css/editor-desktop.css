@@ -1,0 +1,54 @@
+@media screen and (min-width: 1440px) {
+    .conteudo__principal__central {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+    .conteudo__principal__central__background {
+        background-color: var(--fundo-editor-azul);
+        width: 688px;
+        border-radius: 8px;
+        padding: 32px;
+        height: 302px;
+    }
+    
+    .conteudo__principal__central__background__editor {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        background-color: var(--fundo-editor-input-preto);
+        border-radius: 8px;
+        padding: 16px;
+        height: 270px;
+    }
+    
+    .conteudo__principal__central__background__editor-img {
+        width: 52px;
+        height: 12px;
+    }
+    
+    .conteudo__principal__central__background__editor-input {
+        width: 656px;
+        height: 234px;
+        background-color: transparent;
+        border: none;
+        cursor: text;
+        color: var(--cor-fonte-branca);
+        font-family: var(--fonte-secundaria);
+        font-size: 14px;
+        line-height: 18.46px;
+        
+    }
+    
+    .btn-highlight {
+        width: 752px;
+        border-radius: 8px;
+        background-color: var(--botao-outlined);
+        padding: 16px 0px;
+        border: none;
+        color: var(--cor-fonte-branca);
+        font-family: var(--fonte-primaria);
+        font-size: 16px;
+        line-height: 24px;
+    }
+}

@@ -1,0 +1,47 @@
+@media screen and (min-width: 1440px) {
+    .conteudo__principal {
+        display: flex;
+        flex-direction: row;
+        gap: 123px;
+    }
+
+    .conteudo__principal__menu {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        margin-left: 32px;
+    }
+
+    .conteudo__principal__menu-titulo {
+        color: var(--cor-fonte-branca);
+        letter-spacing: 0.4em;
+        text-transform: uppercase;
+        font-size: 12px;
+    }
+
+    .conteudo__principal__menu__item {
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+        align-items: center;
+    }
+    
+
+    .conteudo__principal__menu__item-img {
+        padding: 16px 14px;
+        background-color: var(--botao-filled);
+        border-radius: 16px;
+    }
+
+    .conteudo__principal__menu__item-imgComunidade {
+        padding: 16px 14px;
+        background-color: var(--botao-outlined);
+        border-radius: 16px;
+
+    }
+    .conteudo__principal__menu__item-nome {
+        color: #ffffff6f;
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
