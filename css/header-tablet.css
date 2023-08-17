@@ -1,0 +1,36 @@
+@media screen and (min-width: 426px) and (max-width: 1439.9px) {
+    .cabecalho {
+        background-color: var(--fundo-azul-escuro);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 8px;
+
+    }   
+    .cabecalho-img {
+        margin: 32px;
+    }
+    .cabecalho-inputBusca {
+        width: 432px;
+        border-radius: 8px;
+        background: var(--fundo-input);
+        padding: 16px;
+        border: none;
+        color: var(--cor-fonte-branca);
+        
+    }
+
+    .cabecalho-inputBusca::placeholder {
+        font-family: 'Inter';
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .cabecalho__menu-hamburguer {
+        color: var(--cor-fonte-branca);
+        padding-right: 12px;
+    }
+    .cabecalho__lupa, .cabecalho__perfil {
+        display: none;
+    }
+}

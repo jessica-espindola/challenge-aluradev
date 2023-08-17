@@ -1,10 +1,11 @@
-@media screen and (min-width: 375px) and (max-width: 767px){
+@media screen and (max-width: 426px){
     .cabecalho {
         background-color: var(--fundo-azul-escuro);
         display: flex;
         flex-direction: row;
         align-items: center;
-        height: 56px;
+        width: 343px;
+        margin: 16px;
     
     }
     
@@ -15,7 +16,7 @@
     }
 
     .cabecalho-inputBusca, .cabecalho__perfil {
-        display: none;
+        display: none;  
         
     }
   

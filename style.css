@@ -1,5 +1,6 @@
 @import url(css/header-desktop.css);
 @import url(css/header-mobile.css);
+@import url(css/header-tablet.css);
 
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
@@ -14,4 +15,5 @@
 body {
     font-family: var(--fonte-primaria);
     font-weight: 400;
+    background-color: var(--fundo-azul-escuro);
 }

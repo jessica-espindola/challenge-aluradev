@@ -3,6 +3,8 @@
         background-color: var(--fundo-azul-escuro);
         display: flex;
         align-items: center;
+        justify-content: space-between;
+        gap: 8px;
     
     }
     
@@ -35,6 +37,7 @@
         align-items: center;
         gap: 8px;
         margin-left: 218px;
+        margin-right: 32px;
     }
     
     .cabecalho__perfil-nome {
