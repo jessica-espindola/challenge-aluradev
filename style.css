@@ -1,1 +1,14 @@
 @import url(css/header-desktop.css);
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root {
+    --fundo-azul-escuro: #051D3B;
+    --fundo-input: #FFFFFF29;
+    --fonte-primaria: 'Inter';
+    --cor-fonte-branca: #FFFFFF;
+}
+
+body {
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+}
