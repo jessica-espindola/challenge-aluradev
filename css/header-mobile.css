@@ -1,0 +1,29 @@
+@media screen and (min-width: 375px) and (max-width: 767px){
+    .cabecalho {
+        background-color: var(--fundo-azul-escuro);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 56px;
+    
+    }
+    
+    .cabecalho-img {
+        margin-left: 16px;
+        margin-right: 94px;
+        
+    }
+
+    .cabecalho-inputBusca, .cabecalho__perfil {
+        display: none;
+        
+    }
+  
+    .material-symbols-outlined {
+        display: block;
+        color: var(--cor-fonte-branca);
+        width: 24px;
+        padding: 12px;
+
+    }
+}
