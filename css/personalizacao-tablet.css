@@ -1,0 +1,54 @@
+@media screen and (min-width: 426px) and (max-width: 1439.9px) {
+    .conteudo__principal__direito__personalizacao {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        margin-bottom: 32px;
+    }
+    
+    .conteudo__principal__direito__personalizacao-titulo {
+        font-size: 12px;
+        color: var(--cor-fonte-branca);
+        letter-spacing: 0.4em;
+        text-transform: uppercase;
+    }
+    
+    .conteudo__principal__direito__personalizacao-items-tablet {
+        display: flex;
+        flex-direction: row;
+        gap: 28 px;
+    }
+    .conteudo__principal__direito__personalizacao-select {
+        width: calc(344px - 28px);
+        border-radius: 8px;
+        padding: 16px 14px;
+        background-color: var(--fundo-input);
+        border: none;
+        color: var(--cor-fonte-placeholder);
+    }
+    
+    select option {
+        color: #000000;
+    }
+    
+    .conteudo__principal__direito__personalizacao-inputColor {
+        width: calc(344px + 16px);
+        height: 56px;
+        border-radius: 8px;
+        border: 1px solid var(--cor-fonte-branca);
+        background-color: #C4C4C403;
+        padding: 8px;
+    }
+    
+    .conteudo__principal__direito-btnSalvar {
+        background-color: var(--botao-filled);
+        width: 704px;
+        padding: 16px 0px;
+        border-radius: 8px;
+        border: none;
+        font-family: var(--fonte-primaria);
+        font-size: 16px;
+        line-height: 24px;
+        color: #051D3B;
+    }
+}

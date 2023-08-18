@@ -5,6 +5,9 @@
 @import url(css/editor-desktop.css);
 @import url(css/projeto-desktop.css);
 @import url(css/personalizacao-desktop.css);
+@import url(css/editor-tablet.css);
+@import url(css/projeto-tablet.css);
+@import url(css/personalizacao-tablet.css);
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto+Mono&display=swap');
 
