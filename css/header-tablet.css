@@ -10,6 +10,7 @@
         align-items: center;
         justify-content: space-between;
         gap: 30px;
+        margin: 0px 16px;
     } 
     .cabecalho-img {
         margin: 32px;
