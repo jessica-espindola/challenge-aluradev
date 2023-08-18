@@ -16,7 +16,7 @@
     .conteudo__principal__direito__personalizacao-items-tablet {
         display: flex;
         flex-direction: row;
-        gap: 28 px;
+        gap: 28px;
     }
     .conteudo__principal__direito__personalizacao-select {
         width: calc(344px - 28px);
