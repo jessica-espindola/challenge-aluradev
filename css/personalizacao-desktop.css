@@ -13,6 +13,11 @@
         text-transform: uppercase;
     }
     
+    .conteudo__principal__direito__personalizacao-items-tablet {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
     .conteudo__principal__direito__personalizacao-select {
     
         border-radius: 8px;
@@ -20,6 +25,7 @@
         background-color: var(--fundo-input);
         border: none;
         color: var(--cor-fonte-placeholder);
+        width: 272px;
     }
     
     select option {

@@ -1,16 +1,17 @@
 @media screen and (min-width: 1440px) {
     .cabecalho {
-        background-color: var(--fundo-azul-escuro);
+        width: 100vw;
+    }
+    .cabecalho-caixa {
         display: flex;
         align-items: center;
-        justify-content: space-between;
-        gap: 8px;
-    
+        
+        margin: 32px;
+        width: 1440px;  
+        
     }
-    
     .cabecalho-img {
-        margin: 44px 167px 50px 32px;
-    
+        
     }
     
     .cabecalho-inputBusca {
@@ -22,6 +23,9 @@
         color: var(--cor-fonte-branca);
         font-size: 16px;
         line-height: 24px;
+        margin-left: 167px;
+        margin-right: 206px;
+        
     }
     
     .cabecalho-inputBusca::placeholder {
@@ -36,8 +40,7 @@
         display: flex;
         align-items: center;
         gap: 8px;
-        margin-left: 218px;
-        margin-right: 32px;
+        padding: 12px;
     }
     
     .cabecalho__perfil-nome {

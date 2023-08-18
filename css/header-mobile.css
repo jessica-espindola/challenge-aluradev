@@ -1,18 +1,20 @@
 @media screen and (max-width: 426px){
     .cabecalho {
-        background-color: var(--fundo-azul-escuro);
+        width: 100vw;
+    
+    }
+    .cabecalho-caixa {
         display: flex;
         flex-direction: row;
         align-items: center;
-        width: 343px;
-        margin: 16px;
-    
-    }
-    
-    .cabecalho-img {
-        margin-left: 16px;
-        margin-right: 94px;
+        justify-content: space-between;
+        margin: 16px 27px;
+        gap: 94px;
         
+    }
+
+    .cabecalho_nav {
+        display: flex;
     }
 
     .cabecalho-inputBusca, .cabecalho__perfil {

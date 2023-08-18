@@ -1,11 +1,10 @@
-@media screen and (min-width: 426px) and (max-width: 1439.9px) {
-    
+@media screen and (max-width: 426px) {
     .conteudo__principal__direito__projeto {
         display: flex;
         flex-direction: column;
         gap: 16px;
         margin-bottom: 40px;
-
+    
     }
 
     .conteudo__principal__direito__projeto-titulo {
@@ -13,14 +12,18 @@
         color: var(--cor-fonte-branca);
         letter-spacing: 0.4em;
         text-transform: uppercase;
+        line-height: 18px;
+        width: 343px;
+        
     }
+
     .conteudo__principal__direito__projeto-inputNome, .conteudo__principal__direito__projeto-inputDescricao {
         padding: 16px 14px;
         background-color: var(--fundo-input);
         border: none;
         border-radius: 8px;
         color: var(--cor-fonte-branca);
-        width: calc(704px - 28px);
+        width: calc(343px - 28px);
     }
     .conteudo__principal__direito__projeto-inputDescricao {
         height: 80px;

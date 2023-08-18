@@ -2,7 +2,7 @@
     .conteudo__principal {
         display: flex;
         flex-direction: row;
-        gap: 123px;
+        
     }
 
     .conteudo__principal__menu {
@@ -10,6 +10,7 @@
         flex-direction: column;
         gap: 16px;
         margin-left: 32px;
+        margin-right: 50px;
     }
 
     .conteudo__principal__menu-titulo {
@@ -43,5 +44,6 @@
         color: #ffffff6f;
         font-size: 16px;
         line-height: 24px;
+        width: 189px;
     }
 }

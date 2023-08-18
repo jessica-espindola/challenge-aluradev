@@ -24,6 +24,7 @@
         border: none;
         border-radius: 8px;
         color: var(--cor-fonte-branca);
+        width: calc(272px - 28px);
     }
     
     .conteudo__principal__direito__projeto-inputDescricao {
